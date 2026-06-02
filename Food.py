@@ -131,3 +131,19 @@ while True :
         display_orders()
 
     elif choice ==2 : 
+        name = input("Enter Customer name : ")
+        linear_search(name)
+
+    elif choice == 3 : 
+        order = int(input("\nEnter Order ID : "))
+        binary_search(order)
+    
+    elif choice == 4 : 
+        highest_bill()
+
+    elif choice == 5 : 
+        print("\n Thank you for using the app")
+        break
+
+    else :
+        print("\n Invalid Choice. Try again.")
